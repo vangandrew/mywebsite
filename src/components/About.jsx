@@ -22,7 +22,12 @@ const About = () => {
         <br />
 
         <p className='text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam veniam eum adipisci, quos eos delectus, error nesciunt minus, atque vitae. Omnis quae commodi ad reprehenderit quam non rem, iste error aspernatur, corrupti ducimus cumque necessitatibus magnam nesciunt, voluptatibus animi est enim? Adipisci, error rerum? Atque, vero! Sint, ex illum.
+        Andrew's commitment to stakeholder satisfaction sets him apart 
+        as he consistently exceeds expectations. He meticulously analyzes 
+        the unique requirements and objectives of each stakeholder, ensuring 
+        that his insights align precisely with their specific needs. He presents 
+        findings in a concise and tailored manner, leveraging his technical expertise 
+        to provide impactful insights that drive tangible results. 
         </p>
     </div>
 
