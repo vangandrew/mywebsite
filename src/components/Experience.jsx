@@ -71,7 +71,7 @@ const Experience = () => {
     ]
 
   return (
-    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full min-h-screen'>
     <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         
         <div>
@@ -83,7 +83,7 @@ const Experience = () => {
         </div>
 
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-0 px-12 sm:px-0'>
+        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-0 px-4 sm:px-0'>
 
             {
                 techs.map(({id, src, title, style}) => (
