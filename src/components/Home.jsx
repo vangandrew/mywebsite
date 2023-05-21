@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage2 from "../assets/heroImage2.png";
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 
@@ -13,7 +13,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Data Analyst</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                     I create dashboards and KPIs (Key Performance Indicators) in order to help leverage businesses 
-                    and companies and make sense of their data. With the tools such as SQL, Power BI, Python, HTML,
+                    and companies and make sense of their data. With technical tools such as SQL, Power BI, Python, HTML,
                     CSS, and JavaScript, I am able to help make sense of any data!
                 </p>
 
@@ -23,7 +23,7 @@ const Home = () => {
                     duration={500} 
                     className='group text-white w-fit px-6 py-3 my-2 
                     flex items-center rounded-md bg-gradient-to-r 
-                    from bg-cyan-500 to-blue-500 cursor-pointer'>
+                    from-cyan-500 to-blue-500 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
                         <MdOutlineKeyboardArrowRight size={25} className='ml-1' />
@@ -34,7 +34,7 @@ const Home = () => {
 
 
             <div>
-                <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' 
+                <img src={HeroImage2} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-2/3' 
                 />
             </div>
         </div>
